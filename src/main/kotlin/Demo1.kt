@@ -38,15 +38,16 @@ const val key: Int = 1
 
 class Person {
     var name: String = "jason"
-    var age: Int
+    var age: Int = 0
         get() {
             println("get age")
-            return 18
+            return field
         }
         set(value) {
             println(
                 "value is " + value
             )
+            value
         }
 
     var color: String
@@ -404,8 +405,8 @@ private fun m17() {
     listOf.forEach { println(it) }
 //    Profile(age=2, name=Veten)
 //    Profile(age=3, name=Omar)
-    var sortedWith = listOf.sortedWith(Comparator.naturalOrder())
-    sortedWith.forEach { println(it) }
+//    var sortedWith = listOf.sortedWith(Comparator.naturalOrder())
+//    sortedWith.forEach { println(it) }
 //    Profile(age=3, name=Omar)
 //    Profile(age=2, name=Veten)
 

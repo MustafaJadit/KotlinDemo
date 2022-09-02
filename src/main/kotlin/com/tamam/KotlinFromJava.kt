@@ -10,3 +10,4 @@ fun getTime() {
     var now = LocalDateTime.now()
     println(now)
 }
+

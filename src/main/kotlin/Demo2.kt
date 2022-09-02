@@ -122,15 +122,18 @@ fun m106() {
         }
 
         fun bar() {
-            val x1 = foo().also { println(it.x) }
-            val x2 = publicFoo().apply { println(x) }
+            val x1 = foo().also {
+                println(it.x)
+            }
+            val x2 = publicFoo().apply {
+                println(x)
+            }
 
         }
     }
 
     C().bar()
 }
-
 
 
 typealias NodeSet = Set<Person>
