@@ -1,5 +1,4 @@
-import java.sql.SQLOutput
-import kotlin.math.min
+package com.tamam.basic
 
 fun main() {
     plusMinusMap()

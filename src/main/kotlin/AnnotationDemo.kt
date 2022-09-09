@@ -22,7 +22,6 @@ class Bar2 {
     AnnotationTarget.FUNCTION,
     AnnotationTarget.EXPRESSION
 )
-
 @Retention(AnnotationRetention.SOURCE)
 annotation class Foo(val expression: String) {
 

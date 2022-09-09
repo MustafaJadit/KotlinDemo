@@ -1,4 +1,3 @@
-import java.util.*
 import MyCallback as MyCallback
 
 fun main(args: Array<String>) {

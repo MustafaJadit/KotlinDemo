@@ -1,5 +1,3 @@
-import kotlin.math.pow
-
 class Emptiness {
 
 }

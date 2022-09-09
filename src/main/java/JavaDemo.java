@@ -1,4 +1,4 @@
-import com.tamam.*;
+import com.tamam.kotlin_java_mutual_conversion.*;
 import kotlin.jvm.JvmClassMappingKt;
 import kotlin.reflect.KCallable;
 import kotlin.reflect.KClass;
@@ -39,7 +39,7 @@ public class JavaDemo {
 
     private static void extracted() {
         System.out.println("test");
-        com.tamam.KotlinFromJavaKt.getTime();
+        KotlinFromJavaKt.getTime();
         User user = new User("12");
         String id = user.getID();
         int id1 = User3.Companion.getID();

@@ -1,4 +1,4 @@
-package com.tamam
+package com.tamam.kotlin_java_mutual_conversion
 
 import Foo4
 

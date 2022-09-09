@@ -1,7 +1,7 @@
 @file:JvmName("tamam3")
 @file:JvmMultifileClass
 
-package com.tamam
+package com.tamam.kotlin_java_mutual_conversion
 
 import java.net.IDN
 import java.time.LocalDateTime

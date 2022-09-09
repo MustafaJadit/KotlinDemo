@@ -1,3 +1,5 @@
+import box.Box1
+
 class OperatorPrecedenceDemo {}
 
 fun main() {
@@ -26,5 +28,11 @@ fun main() {
     println(0b11 xor 0b00)  //3
     println(0b10 xor 0b10)  //0
     println(0b10.inv()) //-3
+    println(0b100_1000)
 
+    println(0b100_1000 shl 1)
+    println(0b1100_1000 ushr   1)
+    println(0b1100_1000 shr   1)
+    var box1 = Box1(2)
+    println(box1.num)
 }

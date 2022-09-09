@@ -1,4 +1,4 @@
-import java.util.Hashtable
+package com.tamam.basic
 
 fun main() {
 
